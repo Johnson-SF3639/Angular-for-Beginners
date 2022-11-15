@@ -1,0 +1,18 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EmployeeService {
+
+  constructor() { }
+
+  getEmployee(){
+    return [
+      {"id":1, "name": "John", "age": 30},
+      {"id":2, "name": "Siva", "age": 25},
+      {"id":3, "name": "Tamil", "age": 26},
+      {"id":4, "name": "Sethu", "age": 28}
+    ]
+  }
+}
