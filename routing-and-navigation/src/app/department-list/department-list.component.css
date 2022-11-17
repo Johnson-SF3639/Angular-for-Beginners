@@ -1,0 +1,11 @@
+.list{
+    padding: 1%;
+    background-color: rgb(163, 202, 236);
+    margin: 5px;
+    width: 30%;
+    list-style: none;
+}
+
+li.selected{
+    background-color: green;
+}
